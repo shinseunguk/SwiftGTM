@@ -23,18 +23,32 @@ class ViewController: UIViewController, ViewAttributes {
     
     lazy var addButton = UIButton().then {
         $0.setTitle("Add Button", for: .normal)
+        $0.setTitleColor(.white, for: .normal)
+        $0.setTitleColor(.gray, for: .highlighted)
         $0.backgroundColor = .systemBlue
         $0.layer.cornerRadius = 10
     }
     
     lazy var modifyButton = UIButton().then {
         $0.setTitle("Modify Button", for: .normal)
+        $0.setTitleColor(.white, for: .normal)
+        $0.setTitleColor(.gray, for: .highlighted)
         $0.backgroundColor = .systemBlue
         $0.layer.cornerRadius = 10
     }
     
     lazy var blockButton = UIButton().then {
         $0.setTitle("Block Button", for: .normal)
+        $0.setTitleColor(.white, for: .normal)
+        $0.setTitleColor(.gray, for: .highlighted)
+        $0.backgroundColor = .systemBlue
+        $0.layer.cornerRadius = 10
+    }
+    
+    lazy var normalButton = UIButton().then {
+        $0.setTitle("Normal Button", for: .normal)
+        $0.setTitleColor(.white, for: .normal)
+        $0.setTitleColor(.gray, for: .highlighted)
         $0.backgroundColor = .systemBlue
         $0.layer.cornerRadius = 10
     }
@@ -51,6 +65,7 @@ class ViewController: UIViewController, ViewAttributes {
         self.view.addSubview(addButton)
         self.view.addSubview(modifyButton)
         self.view.addSubview(blockButton)
+        self.view.addSubview(normalButton)
     }
     
     func setAttributes() {
@@ -67,6 +82,11 @@ class ViewController: UIViewController, ViewAttributes {
         
         blockButton.snp.makeConstraints {
             $0.top.equalTo(modifyButton.snp.bottom).offset(40)
+            $0.width.height.centerX.equalTo(modifyButton)
+        }
+        
+        normalButton.snp.makeConstraints {
+            $0.top.equalTo(blockButton.snp.bottom).offset(40)
             $0.width.height.centerX.equalTo(modifyButton)
         }
     }
@@ -87,6 +107,12 @@ class ViewController: UIViewController, ViewAttributes {
         blockButton.rx.tap
             .subscribe(onNext: {
                 Analytics.logEvent("BlockEvent", parameters: nil)
+            })
+            .disposed(by: disposeBag)
+        
+        normalButton.rx.tap
+            .subscribe(onNext: {
+                Analytics.logEvent("normalEvent", parameters: nil)
             })
             .disposed(by: disposeBag)
     }
