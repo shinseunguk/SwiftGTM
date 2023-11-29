@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DFF9CC879C9C87E2899213F /* Pods_SwiftGTM_SwiftGTMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F35F03E5DE1FB11AB87D32D1 /* Pods_SwiftGTM_SwiftGTMUITests.framework */; };
+		46F51146427AE6B8DBD707D1 /* Pods_SwiftGTMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75C449B61F31308870A23440 /* Pods_SwiftGTMTests.framework */; };
 		AC87A0E62B16C81100098620 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87A0E52B16C81100098620 /* AppDelegate.swift */; };
 		AC87A0E82B16C81100098620 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87A0E72B16C81100098620 /* SceneDelegate.swift */; };
 		AC87A0EA2B16C81100098620 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87A0E92B16C81100098620 /* ViewController.swift */; };
-		AC87A0ED2B16C81100098620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC87A0EB2B16C81100098620 /* Main.storyboard */; };
 		AC87A0EF2B16C81300098620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC87A0EE2B16C81300098620 /* Assets.xcassets */; };
-		AC87A0F22B16C81300098620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC87A0F02B16C81300098620 /* LaunchScreen.storyboard */; };
 		AC87A0FD2B16C81300098620 /* SwiftGTMTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87A0FC2B16C81300098620 /* SwiftGTMTests.swift */; };
 		AC87A1072B16C81300098620 /* SwiftGTMUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87A1062B16C81300098620 /* SwiftGTMUITests.swift */; };
 		AC87A1092B16C81300098620 /* SwiftGTMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC87A1082B16C81300098620 /* SwiftGTMUITestsLaunchTests.swift */; };
+		AC87A1162B16D71400098620 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AC87A1152B16D71400098620 /* GoogleService-Info.plist */; };
+		AC87A1182B16F3F200098620 /* container in Resources */ = {isa = PBXBuildFile; fileRef = AC87A1172B16F3F200098620 /* container */; };
+		F93F40FB55DA3399EE0EEB2A /* Pods_SwiftGTM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 671AEF2F80360386BCB5298E /* Pods_SwiftGTM.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,19 +39,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A8D38B8DFAB8881FE1CBFE6 /* Pods-SwiftGTM-SwiftGTMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGTM-SwiftGTMUITests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftGTM-SwiftGTMUITests/Pods-SwiftGTM-SwiftGTMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		47ED6BDB66903073D6527E54 /* Pods-SwiftGTM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGTM.debug.xcconfig"; path = "Target Support Files/Pods-SwiftGTM/Pods-SwiftGTM.debug.xcconfig"; sourceTree = "<group>"; };
+		671AEF2F80360386BCB5298E /* Pods_SwiftGTM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGTM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75C449B61F31308870A23440 /* Pods_SwiftGTMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGTMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EE986B9ED2326EEC1A12E46 /* Pods-SwiftGTMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGTMTests.debug.xcconfig"; path = "Target Support Files/Pods-SwiftGTMTests/Pods-SwiftGTMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		932A7F79714A8EBAC42BDB4C /* Pods-SwiftGTM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGTM.release.xcconfig"; path = "Target Support Files/Pods-SwiftGTM/Pods-SwiftGTM.release.xcconfig"; sourceTree = "<group>"; };
 		AC87A0E22B16C81100098620 /* SwiftGTM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftGTM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC87A0E52B16C81100098620 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC87A0E72B16C81100098620 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		AC87A0E92B16C81100098620 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC87A0EC2B16C81100098620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC87A0EE2B16C81300098620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		AC87A0F12B16C81300098620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC87A0F32B16C81300098620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AC87A0F82B16C81300098620 /* SwiftGTMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGTMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC87A0FC2B16C81300098620 /* SwiftGTMTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGTMTests.swift; sourceTree = "<group>"; };
 		AC87A1022B16C81300098620 /* SwiftGTMUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftGTMUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC87A1062B16C81300098620 /* SwiftGTMUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGTMUITests.swift; sourceTree = "<group>"; };
 		AC87A1082B16C81300098620 /* SwiftGTMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftGTMUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AC87A1152B16D71400098620 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		AC87A1172B16F3F200098620 /* container */ = {isa = PBXFileReference; lastKnownFileType = folder; path = container; sourceTree = "<group>"; };
+		B5196263F4EC919A07AFD141 /* Pods-SwiftGTM-SwiftGTMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGTM-SwiftGTMUITests.release.xcconfig"; path = "Target Support Files/Pods-SwiftGTM-SwiftGTMUITests/Pods-SwiftGTM-SwiftGTMUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BAF27996491F3EC6BAE92E1A /* Pods-SwiftGTMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftGTMTests.release.xcconfig"; path = "Target Support Files/Pods-SwiftGTMTests/Pods-SwiftGTMTests.release.xcconfig"; sourceTree = "<group>"; };
+		F35F03E5DE1FB11AB87D32D1 /* Pods_SwiftGTM_SwiftGTMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftGTM_SwiftGTMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F93F40FB55DA3399EE0EEB2A /* Pods_SwiftGTM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46F51146427AE6B8DBD707D1 /* Pods_SwiftGTMTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,19 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DFF9CC879C9C87E2899213F /* Pods_SwiftGTM_SwiftGTMUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4C48F53F4C835A33B23D4C3B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47ED6BDB66903073D6527E54 /* Pods-SwiftGTM.debug.xcconfig */,
+				932A7F79714A8EBAC42BDB4C /* Pods-SwiftGTM.release.xcconfig */,
+				1A8D38B8DFAB8881FE1CBFE6 /* Pods-SwiftGTM-SwiftGTMUITests.debug.xcconfig */,
+				B5196263F4EC919A07AFD141 /* Pods-SwiftGTM-SwiftGTMUITests.release.xcconfig */,
+				8EE986B9ED2326EEC1A12E46 /* Pods-SwiftGTMTests.debug.xcconfig */,
+				BAF27996491F3EC6BAE92E1A /* Pods-SwiftGTMTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AC87A0D92B16C81100098620 = {
 			isa = PBXGroup;
 			children = (
+				AC87A1172B16F3F200098620 /* container */,
 				AC87A0E42B16C81100098620 /* SwiftGTM */,
 				AC87A0FB2B16C81300098620 /* SwiftGTMTests */,
 				AC87A1052B16C81300098620 /* SwiftGTMUITests */,
 				AC87A0E32B16C81100098620 /* Products */,
+				4C48F53F4C835A33B23D4C3B /* Pods */,
+				F07FB1B9E4194A624063D477 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +133,9 @@
 				AC87A0E52B16C81100098620 /* AppDelegate.swift */,
 				AC87A0E72B16C81100098620 /* SceneDelegate.swift */,
 				AC87A0E92B16C81100098620 /* ViewController.swift */,
-				AC87A0EB2B16C81100098620 /* Main.storyboard */,
 				AC87A0EE2B16C81300098620 /* Assets.xcassets */,
-				AC87A0F02B16C81300098620 /* LaunchScreen.storyboard */,
 				AC87A0F32B16C81300098620 /* Info.plist */,
+				AC87A1152B16D71400098620 /* GoogleService-Info.plist */,
 			);
 			path = SwiftGTM;
 			sourceTree = "<group>";
@@ -127,6 +157,16 @@
 			path = SwiftGTMUITests;
 			sourceTree = "<group>";
 		};
+		F07FB1B9E4194A624063D477 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				671AEF2F80360386BCB5298E /* Pods_SwiftGTM.framework */,
+				F35F03E5DE1FB11AB87D32D1 /* Pods_SwiftGTM_SwiftGTMUITests.framework */,
+				75C449B61F31308870A23440 /* Pods_SwiftGTMTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC87A10C2B16C81300098620 /* Build configuration list for PBXNativeTarget "SwiftGTM" */;
 			buildPhases = (
+				2FF78FD032738EFDF1C2FD54 /* [CP] Check Pods Manifest.lock */,
 				AC87A0DE2B16C81100098620 /* Sources */,
 				AC87A0DF2B16C81100098620 /* Frameworks */,
 				AC87A0E02B16C81100098620 /* Resources */,
+				78031EFB241A3C66D9FB7621 /* [CP] Embed Pods Frameworks */,
+				6969CF314078A1D8131551A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC87A10F2B16C81300098620 /* Build configuration list for PBXNativeTarget "SwiftGTMTests" */;
 			buildPhases = (
+				141D36B46513C9CA1829FD5E /* [CP] Check Pods Manifest.lock */,
 				AC87A0F42B16C81300098620 /* Sources */,
 				AC87A0F52B16C81300098620 /* Frameworks */,
 				AC87A0F62B16C81300098620 /* Resources */,
@@ -169,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC87A1122B16C81300098620 /* Build configuration list for PBXNativeTarget "SwiftGTMUITests" */;
 			buildPhases = (
+				72FB308CFBFB41A2AD4B19EE /* [CP] Check Pods Manifest.lock */,
 				AC87A0FE2B16C81300098620 /* Sources */,
 				AC87A0FF2B16C81300098620 /* Frameworks */,
 				AC87A1002B16C81300098620 /* Resources */,
+				2FD63965027667FA73596F62 /* [CP] Embed Pods Frameworks */,
+				E4D146FCE92EBBDA842A6B55 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -231,9 +278,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC87A0F22B16C81300098620 /* LaunchScreen.storyboard in Resources */,
+				AC87A1182B16F3F200098620 /* container in Resources */,
+				AC87A1162B16D71400098620 /* GoogleService-Info.plist in Resources */,
 				AC87A0EF2B16C81300098620 /* Assets.xcassets in Resources */,
-				AC87A0ED2B16C81100098620 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +299,143 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		141D36B46513C9CA1829FD5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftGTMTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FD63965027667FA73596F62 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftGTM-SwiftGTMUITests/Pods-SwiftGTM-SwiftGTMUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftGTM-SwiftGTMUITests/Pods-SwiftGTM-SwiftGTMUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftGTM-SwiftGTMUITests/Pods-SwiftGTM-SwiftGTMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2FF78FD032738EFDF1C2FD54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftGTM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6969CF314078A1D8131551A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftGTM/Pods-SwiftGTM-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftGTM/Pods-SwiftGTM-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftGTM/Pods-SwiftGTM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72FB308CFBFB41A2AD4B19EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwiftGTM-SwiftGTMUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78031EFB241A3C66D9FB7621 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftGTM/Pods-SwiftGTM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftGTM/Pods-SwiftGTM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftGTM/Pods-SwiftGTM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4D146FCE92EBBDA842A6B55 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftGTM-SwiftGTMUITests/Pods-SwiftGTM-SwiftGTMUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwiftGTM-SwiftGTMUITests/Pods-SwiftGTM-SwiftGTMUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwiftGTM-SwiftGTMUITests/Pods-SwiftGTM-SwiftGTMUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC87A0DE2B16C81100098620 /* Sources */ = {
@@ -296,25 +480,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		AC87A0EB2B16C81100098620 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC87A0EC2B16C81100098620 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		AC87A0F02B16C81300098620 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC87A0F12B16C81300098620 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		AC87A10A2B16C81300098620 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -353,7 +518,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -416,7 +581,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -437,6 +602,7 @@
 		};
 		AC87A10D2B16C81300098620 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47ED6BDB66903073D6527E54 /* Pods-SwiftGTM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -446,8 +612,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftGTM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,11 +626,13 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES;
 			};
 			name = Debug;
 		};
 		AC87A10E2B16C81300098620 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932A7F79714A8EBAC42BDB4C /* Pods-SwiftGTM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -474,8 +642,8 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SwiftGTM/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = "";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -488,11 +656,13 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				USE_RECURSIVE_SCRIPT_INPUTS_IN_SCRIPT_PHASES = YES;
 			};
 			name = Release;
 		};
 		AC87A1102B16C81300098620 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8EE986B9ED2326EEC1A12E46 /* Pods-SwiftGTMTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +683,7 @@
 		};
 		AC87A1112B16C81300098620 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAF27996491F3EC6BAE92E1A /* Pods-SwiftGTMTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -533,6 +704,7 @@
 		};
 		AC87A1132B16C81300098620 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A8D38B8DFAB8881FE1CBFE6 /* Pods-SwiftGTM-SwiftGTMUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -551,6 +723,7 @@
 		};
 		AC87A1142B16C81300098620 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5196263F4EC919A07AFD141 /* Pods-SwiftGTM-SwiftGTMUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
